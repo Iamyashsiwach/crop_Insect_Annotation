@@ -1,0 +1,14 @@
+# YOLOv8 Dataset Configuration
+# Path to dataset (use absolute path or relative to where you run training)
+path: /Users/YourMachine/Downloads/Crop_Insect_Annotation
+
+# Train and validation paths (relative to 'path')
+train: images/train
+val: images/train  # Using same folder since no validation split
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: Crop_Insect 

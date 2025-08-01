@@ -4,7 +4,7 @@ path: /Users/YourMachine/Downloads/Crop_Insect_Annotation
 
 # Train and validation paths (relative to 'path')
 train: images/train
-val: images/train  # Using same folder since no validation split
+val: images/val  # Now using proper validation split
 
 # Number of classes
 nc: 1
